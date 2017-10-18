@@ -2161,7 +2161,7 @@ class Undump(AFNICommand):
 
     _cmd = '3dUndump'
     input_spec = UndumpInputSpec
-    output_spec = UndumpOutputSpec
+    output_spec = AFNICommandOutputSpec
 
 
 class UnifizeInputSpec(AFNICommandInputSpec):
