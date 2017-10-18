@@ -2067,9 +2067,8 @@ class UndumpInputSpec(AFNICommandInputSpec):
         exists=True,
         copyfile=False)
     master = File(
-        desc='input file to determine the geometry and x,y,z coordinates of the image.'
-        argstr='-master %s'
-    )
+        desc='input file to determine the geometry and x,y,z coordinates of the image.',
+        argstr='-master %s')
     out_file = File(
         desc='output image file name',
         argstr='-prefix %s',
