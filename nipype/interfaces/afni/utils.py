@@ -2118,10 +2118,6 @@ class UndumpInputSpec(AFNICommandInputSpec):
         argstr='-head_only')
 
 
-class UndumpOutputSpec(TraitedSpec):
-    out_file = File(desc='assembled file', exists=True)
-
-
 class Undump(AFNICommand):
     """3dUndump - Assembles a 3D dataset from an ASCII list of coordinates and
     (optionally) values.
